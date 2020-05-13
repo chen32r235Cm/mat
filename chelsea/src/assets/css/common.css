@@ -1,0 +1,63 @@
+@charset "utf-8";
+h1,h2,h3,h4,h5,h6,p,a,b,dl,dt,dd,ul,ol,li,strong,span,i,em,img,div,table,tr,td,th,form,input,button,select,option,textarea,label,iframe,fieldset,figure,legend,body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul,ol,li{
+    list-style: none;
+}
+html,body{
+    height: 100%;
+    
+}
+html{
+    font-size: 13.33333333vw;
+}
+body{
+    font-size: 14px;
+}
+/* 禁止文本域拉伸 根据需求而定 */
+textarea{
+    resize: none;
+}
+input,button,textarea{
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    vertical-align: middle;
+    border: none;
+}
+input,button,textarea{
+    border: none;
+    outline: none;
+}
+
+
+.clear_fix::after{
+    content: " ";
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+}
+.w{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+
